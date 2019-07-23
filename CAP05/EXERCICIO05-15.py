@@ -2,6 +2,7 @@
 pagar=0
 while True:
     produto=int(input("Digite o código do produto desejado (0 para sair): "))
+    #ao final de digitar o código e a quantidade ira retornar o print pedindo o código onde deve ser digitado 0 para exibir o resultado da soma do valor do produto.
     preco=0
     if produto==0:
         break;
